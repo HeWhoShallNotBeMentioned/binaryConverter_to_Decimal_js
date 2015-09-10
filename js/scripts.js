@@ -1,12 +1,12 @@
 var base = function(binary) {
 
-	var binaryArray = binary.split('');
-	var sum = 0; //value to store the result of looking up the value of binaryArray positions
+	var binaryArray = binary.split('').reverse();
+	var sum = 0; 
 
-	// go through the binaryArray, find the index of the number searched
-	// raise it to the index's power
-	// add to sum
-
-	// return sum
-	return 0;
-}
+	binaryArray.forEach(function(currentValue, index){
+		if (currentValue == 1) {
+			sum += Math.pow(2, index);
+		}
+	});
+	return sum;
+};
