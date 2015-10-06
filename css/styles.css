@@ -1,3 +1,7 @@
+body {
+  background-color: #cdd5f0;
+}
+
 #result {
   display: none;
 }
