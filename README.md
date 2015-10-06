@@ -1,20 +1,18 @@
 # binaryConverter_to_Decimal_js
 Will convert a binary number to a decimal number with a web front end.
 
-Allows you to search for roman numerals for up to 3999.
 
-{Roman_Numerials_js}
-{Allows you to search for roman numerals for up to 3999.}, {September 10, 2015}
+{Will convert a binary number to a decimal number with a web front end..}, {September 10, 2015}
 
-By {Chris Underwood & Tim Kellog}
+By {Chris Underwood & Tim Kellogg}
 
 Description
 
-{Allows a user to enter an integer and find the roman numerial equivilant. Input text box has a feature that lets the user scroll the number up or down. Any number greater than 3999 is considered false and returns a "too large" error.}
+{Allows a user to enter a binary # (ex. 1001.} and a base number to convert it against (ex 2)
 
 Setup
 
-Download files. Open the RomanNumerals.html document in the browser. The program should be ready to run.
+Download files. Open the bases.html document in the browser. The program should be ready to run.
 
 Technologies Used
 
