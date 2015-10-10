@@ -34,10 +34,10 @@ $(document).ready(function() {
 	var colors = ['lightred', 'red', 'darkred'];
 
 
-	setInterval(function() {
-		var backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-		$(document.body).css('background-color', backgroundColor);
-
-	}, 10000);
+	// setInterval(function() {
+	// 	var backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+	// 	$(document.body).css('background-color', backgroundColor);
+	//
+	// }, 10000);
 
 });
